@@ -1,0 +1,21 @@
+# Root
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.vscode/
+.env
+.env.* 
+
+# Ignore node_modules in subfolders too
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore build/coverage dirs
+backend/build/
+frontend/build/
+backend/coverage/
+frontend/coverage/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
